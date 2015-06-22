@@ -1,0 +1,25 @@
+{
+  "name": "bigsmall.io",
+  "main": "src/server/server.js",
+  "engines": {
+    "node": "0.12.0",
+    "npm": "2.5.1"
+  },
+  "scripts": {
+    "test": "gulp test",
+    "start": "node prog.js"
+  },
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.0",
+    "gulp-load-plugins": "^1.0.0-rc.1",
+    "gulp-plumber": "^1.0.1",
+    "gulp-shell": "^0.4.2",
+    "gulp-task-listing": "^1.0.1",
+    "jshint-stylish": "^2.0.1",
+    "run-sequence": "^1.1.1"
+  },
+  "version": "1.0.0",
+  "author": "Michael Cole",
+  "license": "none"
+}
